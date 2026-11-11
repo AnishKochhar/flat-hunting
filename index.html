@@ -1,0 +1,47 @@
+<!doctype html><html lang="en-GB" data-theme="dark"><head><meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
+<meta name="theme-color" content="#0b0c0f"><meta name="apple-mobile-web-app-capable" content="yes">
+<title>Nest · London flat search</title>
+<link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'><rect width='32' height='32' rx='8' fill='%237c7cff'/><path d='M8 17l8-7 8 7v7H8z' fill='white'/></svg>">
+<link rel="preconnect" href="https://rsms.me"><link rel="stylesheet" href="https://rsms.me/inter/inter.css">
+<link href="https://unpkg.com/maplibre-gl@4.7.1/dist/maplibre-gl.css" rel="stylesheet">
+<script src="https://unpkg.com/maplibre-gl@4.7.1/dist/maplibre-gl.js"></script>
+<link rel="stylesheet" href="style.css"></head><body>
+<div id="map"></div>
+<header class="glass" id="top">
+ <div class="brand"><span class="logo"></span><div><b>Nest</b><small id="sub">London flat search</small></div></div>
+ <button class="icon" id="theme" aria-label="Toggle theme"><svg viewBox="0 0 24 24"><path d="M21 12.8A9 9 0 1 1 11.2 3a7 7 0 0 0 9.8 9.8z"/></svg></button>
+</header>
+<div id="legend" class="glass"><span><i style="--c:var(--g4)"></i>4/4</span><span><i style="--c:var(--g3)"></i>3</span><span><i style="--c:var(--g2)"></i>2</span><span><i style="--c:var(--g1)"></i>0–1</span></div>
+<section id="sheet" class="glass">
+ <div id="grab"><span></span></div>
+ <div class="seg" id="tabs"><button data-t="rank" class="on">Areas</button><button data-t="filters">Rules</button><button data-t="listings">Listings <em id="lcount"></em></button><button data-t="about">About</button><span class="pill"></span></div>
+ <div class="views">
+ <div id="rank" class="view on"><div class="summary" id="summary"></div><ol id="list"></ol></div>
+ <div id="filters" class="view">
+  <div class="ctl"><div class="row"><span>Old Street commute</span><output id="v_os"></output></div><input type="range" id="os"><div class="hint">Anish · door to door, TfL 08:30</div></div>
+  <div class="ctl"><div class="row"><span>KCL commute</span><output id="v_kcl"></output></div><input type="range" id="kcl">
+   <div class="mini-seg" id="kmode"><button data-v="best" class="on">Best campus</button><button data-v="avg">Average of 4</button></div></div>
+  <div class="ctl"><div class="row"><span>Drive to Kingston</span><output id="v_kt"></output></div><input type="range" id="kt"><div class="hint">Weekday ~6pm estimate</div></div>
+  <div class="ctl"><div class="row"><span>Traffic factor</span><output id="v_tf"></output></div><input type="range" id="tf"><div class="hint">Peak = OSRM free-flow × factor (assumed)</div></div>
+  <div class="ctl"><div class="row"><span>Max rent</span><output id="v_rent"></output></div><div class="rangewrap"><input type="range" id="rent"><div id="rentmarks"></div></div><div class="hint">Median 1-bed asking rent for the area</div></div>
+  <div class="ctl"><div class="row"><span>Rules that count</span></div>
+   <label class="sw"><span>Old Street</span><input type="checkbox" id="r_old_street" checked><i></i></label>
+   <label class="sw"><span>KCL</span><input type="checkbox" id="r_kcl" checked><i></i></label>
+   <label class="sw"><span>Kingston drive</span><input type="checkbox" id="r_kingston" checked><i></i></label>
+   <label class="sw"><span>Rent</span><input type="checkbox" id="r_rent" checked><i></i></label>
+   <label class="sw"><span>Postcode districts</span><input type="checkbox" id="l_districts" checked><i></i></label></div>
+  <button class="ghost" id="reset">Reset defaults</button>
+ </div>
+ <div id="listings" class="view">
+  <div class="lhead"><div class="lsum" id="lsum"></div><select id="lsort" aria-label="Sort listings"><option value="best">Best match</option><option value="movein">Move-in soonest</option><option value="newest">Newest first</option><option value="rent">Cheapest</option></select></div>
+  <div id="tl" class="ctl tl"></div>
+  <div class="mvr"><span>Available</span><input type="date" id="mvfrom" aria-label="Available from"><i>→</i><input type="date" id="mvto" aria-label="Available until"></div>
+  <div class="chips" id="lfilter"></div>
+  <label class="sw sm"><span>Show let / removed <em id="letn"></em></span><input type="checkbox" id="showlet"><i></i></label>
+  <div id="lcards"></div></div>
+ <div id="about" class="view"></div>
+ </div>
+</section>
+<div id="card" class="glass" hidden></div>
+<script src="app.js"></script></body></html>

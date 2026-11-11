@@ -1,0 +1,1257 @@
+{
+ "type": "FeatureCollection",
+ "meta": {
+  "generated": "2026-10-19",
+  "transit": "TfL Journey Planner API, coordinate-to-coordinate (door to door incl. walking), departing Tue 20 Oct 2026 08:30, journeyPreference=leasttime, fastest option",
+  "drive": "OSRM public demo (router.project-osrm.org) free-flow driving to Kingston town centre KT1 (51.4100,-0.3006); peak estimate = free-flow x 1.4 (assumed factor, not measured)",
+  "rent": "RentReboot median 1-bed asking rents by neighbourhood, 90 days to 18 Oct 2026 (https://rentreboot.com/london/average), Rightmove/Zoopla-derived listings; ONS PIPR borough mean 1-bed Aug 2026 (via harveywjames.com/rent-check) for context",
+  "thresholds": {
+   "old_street": 30,
+   "kcl_best": 40,
+   "kingston": 60,
+   "rent": 2000
+  }
+ },
+ "features": [
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -0.0943,
+     51.5011
+    ]
+   },
+   "properties": {
+    "name": "Borough",
+    "lat": 51.5011,
+    "lon": -0.0943,
+    "old_street_min": 21,
+    "kcl": {
+     "Waterloo campus": 21,
+     "Strand campus": 27,
+     "Guy's campus": 11,
+     "Denmark Hill campus": 25
+    },
+    "osrm_free_min": 40.3,
+    "drive_km": 19.4,
+    "rent_1bed_median": 2496,
+    "rent_area_label": "Borough & Bankside",
+    "borough": "Southwark",
+    "ons_borough_1bed_mean": 1876,
+    "kcl_best_min": 11,
+    "kcl_best_campus": "Guy's campus",
+    "kcl_avg_min": 21.0
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -0.1126,
+     51.4819
+    ]
+   },
+   "properties": {
+    "name": "Oval",
+    "lat": 51.4819,
+    "lon": -0.1126,
+    "old_street_min": 27,
+    "kcl": {
+     "Waterloo campus": 19,
+     "Strand campus": 24,
+     "Guy's campus": 23,
+     "Denmark Hill campus": 19
+    },
+    "osrm_free_min": 34.8,
+    "drive_km": 17.2,
+    "rent_1bed_median": 2800,
+    "rent_area_label": "Kennington, Oval & Vauxhall",
+    "borough": "Lambeth",
+    "ons_borough_1bed_mean": 1882,
+    "kcl_best_min": 19,
+    "kcl_best_campus": "Waterloo campus",
+    "kcl_avg_min": 21.2
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -0.1228,
+     51.4723
+    ]
+   },
+   "properties": {
+    "name": "Stockwell",
+    "lat": 51.4723,
+    "lon": -0.1228,
+    "old_street_min": 30,
+    "kcl": {
+     "Waterloo campus": 22,
+     "Strand campus": 27,
+     "Guy's campus": 27,
+     "Denmark Hill campus": 22
+    },
+    "osrm_free_min": 32.1,
+    "drive_km": 15.4,
+    "rent_1bed_median": 2100,
+    "rent_area_label": "Stockwell",
+    "borough": "Lambeth",
+    "ons_borough_1bed_mean": 1882,
+    "kcl_best_min": 22,
+    "kcl_best_campus": "Waterloo campus",
+    "kcl_avg_min": 24.5
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -0.128,
+     51.48
+    ]
+   },
+   "properties": {
+    "name": "Nine Elms",
+    "lat": 51.48,
+    "lon": -0.128,
+    "old_street_min": 29,
+    "kcl": {
+     "Waterloo campus": 20,
+     "Strand campus": 25,
+     "Guy's campus": 26,
+     "Denmark Hill campus": 32
+    },
+    "osrm_free_min": 33.8,
+    "drive_km": 16.7,
+    "rent_1bed_median": 2946,
+    "rent_area_label": "Battersea & Nine Elms",
+    "borough": "Wandsworth",
+    "ons_borough_1bed_mean": 1938,
+    "kcl_best_min": 20,
+    "kcl_best_campus": "Waterloo campus",
+    "kcl_avg_min": 25.8
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -0.1594,
+     51.4355
+    ]
+   },
+   "properties": {
+    "name": "Tooting Bec",
+    "lat": 51.4355,
+    "lon": -0.1594,
+    "old_street_min": 37,
+    "kcl": {
+     "Waterloo campus": 31,
+     "Strand campus": 37,
+     "Guy's campus": 35,
+     "Denmark Hill campus": 37
+    },
+    "osrm_free_min": 24.3,
+    "drive_km": 13.3,
+    "rent_1bed_median": 1750,
+    "rent_area_label": "Balham & Tooting",
+    "borough": "Wandsworth",
+    "ons_borough_1bed_mean": 1938,
+    "kcl_best_min": 31,
+    "kcl_best_campus": "Waterloo campus",
+    "kcl_avg_min": 35.0
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -0.1053,
+     51.4884
+    ]
+   },
+   "properties": {
+    "name": "Kennington",
+    "lat": 51.4884,
+    "lon": -0.1053,
+    "old_street_min": 26,
+    "kcl": {
+     "Waterloo campus": 18,
+     "Strand campus": 23,
+     "Guy's campus": 22,
+     "Denmark Hill campus": 25
+    },
+    "osrm_free_min": 40.6,
+    "drive_km": 19.5,
+    "rent_1bed_median": 2800,
+    "rent_area_label": "Kennington, Oval & Vauxhall",
+    "borough": "Lambeth",
+    "ons_borough_1bed_mean": 1882,
+    "kcl_best_min": 18,
+    "kcl_best_campus": "Waterloo campus",
+    "kcl_avg_min": 22.0
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -0.1001,
+     51.4943
+    ]
+   },
+   "properties": {
+    "name": "Elephant & Castle",
+    "lat": 51.4943,
+    "lon": -0.1001,
+    "old_street_min": 29,
+    "kcl": {
+     "Waterloo campus": 16,
+     "Strand campus": 26,
+     "Guy's campus": 17,
+     "Denmark Hill campus": 19
+    },
+    "osrm_free_min": 37.4,
+    "drive_km": 18.3,
+    "rent_1bed_median": 2450,
+    "rent_area_label": "Elephant & Castle & Walworth",
+    "borough": "Southwark",
+    "ons_borough_1bed_mean": 1876,
+    "kcl_best_min": 16,
+    "kcl_best_campus": "Waterloo campus",
+    "kcl_avg_min": 19.5
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -0.1145,
+     51.4627
+    ]
+   },
+   "properties": {
+    "name": "Brixton",
+    "lat": 51.4627,
+    "lon": -0.1145,
+    "old_street_min": 34,
+    "kcl": {
+     "Waterloo campus": 26,
+     "Strand campus": 30,
+     "Guy's campus": 32,
+     "Denmark Hill campus": 16
+    },
+    "osrm_free_min": 34.3,
+    "drive_km": 16.2,
+    "rent_1bed_median": 1950,
+    "rent_area_label": "Brixton",
+    "borough": "Lambeth",
+    "ons_borough_1bed_mean": 1882,
+    "kcl_best_min": 16,
+    "kcl_best_campus": "Denmark Hill campus",
+    "kcl_avg_min": 26.0
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -0.093,
+     51.474
+    ]
+   },
+   "properties": {
+    "name": "Camberwell",
+    "lat": 51.474,
+    "lon": -0.093,
+    "old_street_min": 39,
+    "kcl": {
+     "Waterloo campus": 32,
+     "Strand campus": 35,
+     "Guy's campus": 34,
+     "Denmark Hill campus": 5
+    },
+    "osrm_free_min": 37.1,
+    "drive_km": 18.6,
+    "rent_1bed_median": 1750,
+    "rent_area_label": "Camberwell",
+    "borough": "Southwark",
+    "ons_borough_1bed_mean": 1876,
+    "kcl_best_min": 5,
+    "kcl_best_campus": "Denmark Hill campus",
+    "kcl_avg_min": 26.5
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -0.0891,
+     51.4682
+    ]
+   },
+   "properties": {
+    "name": "Denmark Hill",
+    "lat": 51.4682,
+    "lon": -0.0891,
+    "old_street_min": 43,
+    "kcl": {
+     "Waterloo campus": 32,
+     "Strand campus": 35,
+     "Guy's campus": 32,
+     "Denmark Hill campus": 8
+    },
+    "osrm_free_min": 39.5,
+    "drive_km": 19.6,
+    "rent_1bed_median": 1750,
+    "rent_area_label": "Camberwell",
+    "borough": "Southwark",
+    "ons_borough_1bed_mean": 1876,
+    "kcl_best_min": 8,
+    "kcl_best_campus": "Denmark Hill campus",
+    "kcl_avg_min": 26.8
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -0.1058,
+     51.5322
+    ]
+   },
+   "properties": {
+    "name": "Angel",
+    "lat": 51.5322,
+    "lon": -0.1058,
+    "old_street_min": 11,
+    "kcl": {
+     "Waterloo campus": 31,
+     "Strand campus": 29,
+     "Guy's campus": 28,
+     "Denmark Hill campus": 42
+    },
+    "osrm_free_min": 49.0,
+    "drive_km": 22.9,
+    "rent_1bed_median": 2725,
+    "rent_area_label": "Islington & Angel",
+    "borough": "Islington",
+    "ons_borough_1bed_mean": 2178,
+    "kcl_best_min": 28,
+    "kcl_best_campus": "Guy's campus",
+    "kcl_avg_min": 32.5
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -0.105,
+     51.524
+    ]
+   },
+   "properties": {
+    "name": "Clerkenwell",
+    "lat": 51.524,
+    "lon": -0.105,
+    "old_street_min": 14,
+    "kcl": {
+     "Waterloo campus": 26,
+     "Strand campus": 25,
+     "Guy's campus": 32,
+     "Denmark Hill campus": 34
+    },
+    "osrm_free_min": 47.2,
+    "drive_km": 22.0,
+    "rent_1bed_median": 2701,
+    "rent_area_label": "Clerkenwell & Farringdon",
+    "borough": "Islington",
+    "ons_borough_1bed_mean": 2178,
+    "kcl_best_min": 25,
+    "kcl_best_campus": "Strand campus",
+    "kcl_avg_min": 29.2
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -0.1384,
+     51.4618
+    ]
+   },
+   "properties": {
+    "name": "Clapham",
+    "lat": 51.4618,
+    "lon": -0.1384,
+    "old_street_min": 31,
+    "kcl": {
+     "Waterloo campus": 24,
+     "Strand campus": 29,
+     "Guy's campus": 29,
+     "Denmark Hill campus": 28
+    },
+    "osrm_free_min": 28.3,
+    "drive_km": 13.8,
+    "rent_1bed_median": 2200,
+    "rent_area_label": "Clapham",
+    "borough": "Lambeth",
+    "ons_borough_1bed_mean": 1882,
+    "kcl_best_min": 24,
+    "kcl_best_campus": "Waterloo campus",
+    "kcl_avg_min": 27.5
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -0.0757,
+     51.5315
+    ]
+   },
+   "properties": {
+    "name": "Hoxton",
+    "lat": 51.5315,
+    "lon": -0.0757,
+    "old_street_min": 16,
+    "kcl": {
+     "Waterloo campus": 38,
+     "Strand campus": 32,
+     "Guy's campus": 34,
+     "Denmark Hill campus": 42
+    },
+    "osrm_free_min": 50.9,
+    "drive_km": 23.4,
+    "rent_1bed_median": 2530,
+    "rent_area_label": "Shoreditch & Hoxton",
+    "borough": "Hackney",
+    "ons_borough_1bed_mean": 2001,
+    "kcl_best_min": 32,
+    "kcl_best_campus": "Strand campus",
+    "kcl_avg_min": 36.5
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -0.1238,
+     51.5308
+    ]
+   },
+   "properties": {
+    "name": "Kings Cross",
+    "lat": 51.5308,
+    "lon": -0.1238,
+    "old_street_min": 20,
+    "kcl": {
+     "Waterloo campus": 31,
+     "Strand campus": 29,
+     "Guy's campus": 34,
+     "Denmark Hill campus": 36
+    },
+    "osrm_free_min": 48.4,
+    "drive_km": 22.6,
+    "rent_1bed_median": 2800,
+    "rent_area_label": "Bloomsbury & King's Cross",
+    "borough": "Camden",
+    "ons_borough_1bed_mean": 2054,
+    "kcl_best_min": 29,
+    "kcl_best_campus": "Strand campus",
+    "kcl_avg_min": 32.5
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -0.0756,
+     51.5387
+    ]
+   },
+   "properties": {
+    "name": "Haggerston",
+    "lat": 51.5387,
+    "lon": -0.0756,
+    "old_street_min": 18,
+    "kcl": {
+     "Waterloo campus": 39,
+     "Strand campus": 33,
+     "Guy's campus": 35,
+     "Denmark Hill campus": 43
+    },
+    "osrm_free_min": 52.1,
+    "drive_km": 23.9,
+    "rent_1bed_median": 2200,
+    "rent_area_label": "Dalston & London Fields",
+    "borough": "Hackney",
+    "ons_borough_1bed_mean": 2001,
+    "kcl_best_min": 33,
+    "kcl_best_campus": "Strand campus",
+    "kcl_avg_min": 37.5
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -0.104,
+     51.546
+    ]
+   },
+   "properties": {
+    "name": "Islington (Highbury)",
+    "lat": 51.546,
+    "lon": -0.104,
+    "old_street_min": 19,
+    "kcl": {
+     "Waterloo campus": 35,
+     "Strand campus": 35,
+     "Guy's campus": 38,
+     "Denmark Hill campus": 46
+    },
+    "osrm_free_min": 52.1,
+    "drive_km": 23.9,
+    "rent_1bed_median": 2250,
+    "rent_area_label": "Highbury & Canonbury",
+    "borough": "Islington",
+    "ons_borough_1bed_mean": 2178,
+    "kcl_best_min": 35,
+    "kcl_best_campus": "Waterloo campus",
+    "kcl_avg_min": 38.5
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -0.0597,
+     51.5195
+    ]
+   },
+   "properties": {
+    "name": "Whitechapel",
+    "lat": 51.5195,
+    "lon": -0.0597,
+    "old_street_min": 22,
+    "kcl": {
+     "Waterloo campus": 31,
+     "Strand campus": 23,
+     "Guy's campus": 26,
+     "Denmark Hill campus": 38
+    },
+    "osrm_free_min": 49.1,
+    "drive_km": 22.7,
+    "rent_1bed_median": 2100,
+    "rent_area_label": "Whitechapel & Stepney",
+    "borough": "Tower Hamlets",
+    "ons_borough_1bed_mean": 1992,
+    "kcl_best_min": 23,
+    "kcl_best_campus": "Strand campus",
+    "kcl_avg_min": 29.5
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -0.0569,
+     51.5112
+    ]
+   },
+   "properties": {
+    "name": "Shadwell",
+    "lat": 51.5112,
+    "lon": -0.0569,
+    "old_street_min": 22,
+    "kcl": {
+     "Waterloo campus": 28,
+     "Strand campus": 27,
+     "Guy's campus": 27,
+     "Denmark Hill campus": 37
+    },
+    "osrm_free_min": 49.4,
+    "drive_km": 23.0,
+    "rent_1bed_median": 2250,
+    "rent_area_label": "Wapping & Limehouse",
+    "borough": "Tower Hamlets",
+    "ons_borough_1bed_mean": 1992,
+    "kcl_best_min": 27,
+    "kcl_best_campus": "Strand campus",
+    "kcl_avg_min": 29.8
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -0.11,
+     51.503
+    ]
+   },
+   "properties": {
+    "name": "Waterloo/Southwark (SE1)",
+    "lat": 51.503,
+    "lon": -0.11,
+    "old_street_min": 32,
+    "kcl": {
+     "Waterloo campus": 7,
+     "Strand campus": 16,
+     "Guy's campus": 21,
+     "Denmark Hill campus": 26
+    },
+    "osrm_free_min": 38.0,
+    "drive_km": 18.7,
+    "rent_1bed_median": 2750,
+    "rent_area_label": "Waterloo & South Bank",
+    "borough": "Lambeth",
+    "ons_borough_1bed_mean": 1882,
+    "kcl_best_min": 7,
+    "kcl_best_campus": "Waterloo campus",
+    "kcl_avg_min": 17.5
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -0.075,
+     51.5462
+    ]
+   },
+   "properties": {
+    "name": "Dalston",
+    "lat": 51.5462,
+    "lon": -0.075,
+    "old_street_min": 21,
+    "kcl": {
+     "Waterloo campus": 39,
+     "Strand campus": 32,
+     "Guy's campus": 35,
+     "Denmark Hill campus": 43
+    },
+    "osrm_free_min": 54.3,
+    "drive_km": 24.7,
+    "rent_1bed_median": 2200,
+    "rent_area_label": "Dalston & London Fields",
+    "borough": "Hackney",
+    "ons_borough_1bed_mean": 2001,
+    "kcl_best_min": 32,
+    "kcl_best_campus": "Strand campus",
+    "kcl_avg_min": 37.2
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -0.0549,
+     51.527
+    ]
+   },
+   "properties": {
+    "name": "Bethnal Green",
+    "lat": 51.527,
+    "lon": -0.0549,
+    "old_street_min": 23,
+    "kcl": {
+     "Waterloo campus": 30,
+     "Strand campus": 32,
+     "Guy's campus": 31,
+     "Denmark Hill campus": 46
+    },
+    "osrm_free_min": 51.9,
+    "drive_km": 23.8,
+    "rent_1bed_median": 2250,
+    "rent_area_label": "Bethnal Green & Spitalfields",
+    "borough": "Tower Hamlets",
+    "ons_borough_1bed_mean": 1992,
+    "kcl_best_min": 30,
+    "kcl_best_campus": "Waterloo campus",
+    "kcl_avg_min": 34.8
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -0.1253,
+     51.4861
+    ]
+   },
+   "properties": {
+    "name": "Vauxhall",
+    "lat": 51.4861,
+    "lon": -0.1253,
+    "old_street_min": 39,
+    "kcl": {
+     "Waterloo campus": 21,
+     "Strand campus": 29,
+     "Guy's campus": 34,
+     "Denmark Hill campus": 29
+    },
+    "osrm_free_min": 32.0,
+    "drive_km": 16.4,
+    "rent_1bed_median": 2800,
+    "rent_area_label": "Kennington, Oval & Vauxhall",
+    "borough": "Lambeth",
+    "ons_borough_1bed_mean": 1882,
+    "kcl_best_min": 21,
+    "kcl_best_campus": "Waterloo campus",
+    "kcl_avg_min": 28.2
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -0.0397,
+     51.5123
+    ]
+   },
+   "properties": {
+    "name": "Limehouse",
+    "lat": 51.5123,
+    "lon": -0.0397,
+    "old_street_min": 25,
+    "kcl": {
+     "Waterloo campus": 31,
+     "Strand campus": 31,
+     "Guy's campus": 30,
+     "Denmark Hill campus": 44
+    },
+    "osrm_free_min": 52.5,
+    "drive_km": 24.5,
+    "rent_1bed_median": 2250,
+    "rent_area_label": "Wapping & Limehouse",
+    "borough": "Tower Hamlets",
+    "ons_borough_1bed_mean": 1992,
+    "kcl_best_min": 30,
+    "kcl_best_campus": "Guy's campus",
+    "kcl_avg_min": 34.0
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -0.0637,
+     51.4979
+    ]
+   },
+   "properties": {
+    "name": "Bermondsey",
+    "lat": 51.4979,
+    "lon": -0.0637,
+    "old_street_min": 30,
+    "kcl": {
+     "Waterloo campus": 24,
+     "Strand campus": 30,
+     "Guy's campus": 19,
+     "Denmark Hill campus": 40
+    },
+    "osrm_free_min": 45.4,
+    "drive_km": 21.4,
+    "rent_1bed_median": 2675,
+    "rent_area_label": "Bermondsey & Rotherhithe",
+    "borough": "Southwark",
+    "ons_borough_1bed_mean": 1876,
+    "kcl_best_min": 19,
+    "kcl_best_campus": "Guy's campus",
+    "kcl_avg_min": 28.2
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -0.0497,
+     51.498
+    ]
+   },
+   "properties": {
+    "name": "Canada Water",
+    "lat": 51.498,
+    "lon": -0.0497,
+    "old_street_min": 29,
+    "kcl": {
+     "Waterloo campus": 22,
+     "Strand campus": 29,
+     "Guy's campus": 18,
+     "Denmark Hill campus": 27
+    },
+    "osrm_free_min": 48.3,
+    "drive_km": 22.6,
+    "rent_1bed_median": 2675,
+    "rent_area_label": "Bermondsey & Rotherhithe",
+    "borough": "Southwark",
+    "ons_borough_1bed_mean": 1876,
+    "kcl_best_min": 18,
+    "kcl_best_campus": "Guy's campus",
+    "kcl_avg_min": 24.0
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -0.093,
+     51.487
+    ]
+   },
+   "properties": {
+    "name": "Walworth",
+    "lat": 51.487,
+    "lon": -0.093,
+    "old_street_min": 39,
+    "kcl": {
+     "Waterloo campus": 23,
+     "Strand campus": 32,
+     "Guy's campus": 26,
+     "Denmark Hill campus": 15
+    },
+    "osrm_free_min": 39.1,
+    "drive_km": 19.0,
+    "rent_1bed_median": 2450,
+    "rent_area_label": "Elephant & Castle & Walworth",
+    "borough": "Southwark",
+    "ons_borough_1bed_mean": 1876,
+    "kcl_best_min": 15,
+    "kcl_best_campus": "Denmark Hill campus",
+    "kcl_avg_min": 24.0
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -0.191,
+     51.4571
+    ]
+   },
+   "properties": {
+    "name": "Wandsworth (SW18, current)",
+    "lat": 51.4571,
+    "lon": -0.191,
+    "old_street_min": 56,
+    "kcl": {
+     "Waterloo campus": 34,
+     "Strand campus": 44,
+     "Guy's campus": 49,
+     "Denmark Hill campus": 43
+    },
+    "osrm_free_min": 18.2,
+    "drive_km": 9.9,
+    "rent_1bed_median": 2295,
+    "rent_area_label": "Wandsworth Town & Earlsfield",
+    "borough": "Wandsworth",
+    "ons_borough_1bed_mean": 1938,
+    "kcl_best_min": 34,
+    "kcl_best_campus": "Waterloo campus",
+    "kcl_avg_min": 42.5
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -0.155,
+     51.47
+    ]
+   },
+   "properties": {
+    "name": "Battersea",
+    "lat": 51.47,
+    "lon": -0.155,
+    "old_street_min": 51,
+    "kcl": {
+     "Waterloo campus": 31,
+     "Strand campus": 40,
+     "Guy's campus": 45,
+     "Denmark Hill campus": 46
+    },
+    "osrm_free_min": 25.9,
+    "drive_km": 13.0,
+    "rent_1bed_median": 2946,
+    "rent_area_label": "Battersea & Nine Elms",
+    "borough": "Wandsworth",
+    "ons_borough_1bed_mean": 1938,
+    "kcl_best_min": 31,
+    "kcl_best_campus": "Waterloo campus",
+    "kcl_avg_min": 40.5
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -0.056,
+     51.547
+    ]
+   },
+   "properties": {
+    "name": "Hackney Central",
+    "lat": 51.547,
+    "lon": -0.056,
+    "old_street_min": 29,
+    "kcl": {
+     "Waterloo campus": 45,
+     "Strand campus": 42,
+     "Guy's campus": 47,
+     "Denmark Hill campus": 56
+    },
+    "osrm_free_min": 57.4,
+    "drive_km": 26.0,
+    "rent_1bed_median": 2000,
+    "rent_area_label": "Hackney Central & Homerton",
+    "borough": "Hackney",
+    "ons_borough_1bed_mean": 2001,
+    "kcl_best_min": 42,
+    "kcl_best_campus": "Strand campus",
+    "kcl_avg_min": 47.5
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -0.0327,
+     51.4763
+    ]
+   },
+   "properties": {
+    "name": "New Cross",
+    "lat": 51.4763,
+    "lon": -0.0327,
+    "old_street_min": 37,
+    "kcl": {
+     "Waterloo campus": 33,
+     "Strand campus": 34,
+     "Guy's campus": 23,
+     "Denmark Hill campus": 35
+    },
+    "osrm_free_min": 48.7,
+    "drive_km": 23.4,
+    "rent_1bed_median": 1800,
+    "rent_area_label": "Deptford & New Cross",
+    "borough": "Lewisham",
+    "ons_borough_1bed_mean": 1457,
+    "kcl_best_min": 23,
+    "kcl_best_campus": "Guy's campus",
+    "kcl_avg_min": 31.2
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -0.0693,
+     51.47
+    ]
+   },
+   "properties": {
+    "name": "Peckham",
+    "lat": 51.47,
+    "lon": -0.0693,
+    "old_street_min": 42,
+    "kcl": {
+     "Waterloo campus": 32,
+     "Strand campus": 35,
+     "Guy's campus": 26,
+     "Denmark Hill campus": 17
+    },
+    "osrm_free_min": 43.2,
+    "drive_km": 21.0,
+    "rent_1bed_median": 1750,
+    "rent_area_label": "Peckham & Nunhead",
+    "borough": "Southwark",
+    "ons_borough_1bed_mean": 1876,
+    "kcl_best_min": 17,
+    "kcl_best_campus": "Denmark Hill campus",
+    "kcl_avg_min": 27.5
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -0.0262,
+     51.4787
+    ]
+   },
+   "properties": {
+    "name": "Deptford",
+    "lat": 51.4787,
+    "lon": -0.0262,
+    "old_street_min": 39,
+    "kcl": {
+     "Waterloo campus": 34,
+     "Strand campus": 34,
+     "Guy's campus": 22,
+     "Denmark Hill campus": 44
+    },
+    "osrm_free_min": 49.8,
+    "drive_km": 23.9,
+    "rent_1bed_median": 1800,
+    "rent_area_label": "Deptford & New Cross",
+    "borough": "Lewisham",
+    "ons_borough_1bed_mean": 1457,
+    "kcl_best_min": 22,
+    "kcl_best_campus": "Guy's campus",
+    "kcl_avg_min": 33.5
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -0.0149,
+     51.4781
+    ]
+   },
+   "properties": {
+    "name": "Greenwich",
+    "lat": 51.4781,
+    "lon": -0.0149,
+    "old_street_min": 41,
+    "kcl": {
+     "Waterloo campus": 36,
+     "Strand campus": 36,
+     "Guy's campus": 25,
+     "Denmark Hill campus": 43
+    },
+    "osrm_free_min": 51.4,
+    "drive_km": 24.8,
+    "rent_1bed_median": 1900,
+    "rent_area_label": "Greenwich & Charlton",
+    "borough": "Greenwich",
+    "ons_borough_1bed_mean": 1563,
+    "kcl_best_min": 25,
+    "kcl_best_campus": "Guy's campus",
+    "kcl_avg_min": 35.0
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -0.052,
+     51.501
+    ]
+   },
+   "properties": {
+    "name": "Rotherhithe",
+    "lat": 51.501,
+    "lon": -0.052,
+    "old_street_min": 31,
+    "kcl": {
+     "Waterloo campus": 28,
+     "Strand campus": 32,
+     "Guy's campus": 25,
+     "Denmark Hill campus": 31
+    },
+    "osrm_free_min": 48.4,
+    "drive_km": 22.6,
+    "rent_1bed_median": 2675,
+    "rent_area_label": "Bermondsey & Rotherhithe",
+    "borough": "Southwark",
+    "ons_borough_1bed_mean": 1876,
+    "kcl_best_min": 25,
+    "kcl_best_campus": "Guy's campus",
+    "kcl_avg_min": 29.0
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -0.0559,
+     51.5043
+    ]
+   },
+   "properties": {
+    "name": "Wapping",
+    "lat": 51.5043,
+    "lon": -0.0559,
+    "old_street_min": 31,
+    "kcl": {
+     "Waterloo campus": 30,
+     "Strand campus": 32,
+     "Guy's campus": 26,
+     "Denmark Hill campus": 33
+    },
+    "osrm_free_min": 50.0,
+    "drive_km": 23.3,
+    "rent_1bed_median": 2250,
+    "rent_area_label": "Wapping & Limehouse",
+    "borough": "Tower Hamlets",
+    "ons_borough_1bed_mean": 1992,
+    "kcl_best_min": 26,
+    "kcl_best_campus": "Guy's campus",
+    "kcl_avg_min": 30.2
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -0.0478,
+     51.4933
+    ]
+   },
+   "properties": {
+    "name": "Surrey Quays",
+    "lat": 51.4933,
+    "lon": -0.0478,
+    "old_street_min": 33,
+    "kcl": {
+     "Waterloo campus": 27,
+     "Strand campus": 34,
+     "Guy's campus": 23,
+     "Denmark Hill campus": 26
+    },
+    "osrm_free_min": 47.6,
+    "drive_km": 22.7,
+    "rent_1bed_median": 2675,
+    "rent_area_label": "Bermondsey & Rotherhithe",
+    "borough": "Southwark",
+    "ons_borough_1bed_mean": 1876,
+    "kcl_best_min": 23,
+    "kcl_best_campus": "Guy's campus",
+    "kcl_avg_min": 27.5
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -0.0546,
+     51.4881
+    ]
+   },
+   "properties": {
+    "name": "South Bermondsey",
+    "lat": 51.4881,
+    "lon": -0.0546,
+    "old_street_min": 36,
+    "kcl": {
+     "Waterloo campus": 32,
+     "Strand campus": 39,
+     "Guy's campus": 20,
+     "Denmark Hill campus": 26
+    },
+    "osrm_free_min": 45.8,
+    "drive_km": 21.9,
+    "rent_1bed_median": 2675,
+    "rent_area_label": "Bermondsey & Rotherhithe",
+    "borough": "Southwark",
+    "ons_borough_1bed_mean": 1876,
+    "kcl_best_min": 20,
+    "kcl_best_campus": "Guy's campus",
+    "kcl_avg_min": 29.2
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -0.045,
+     51.518
+    ]
+   },
+   "properties": {
+    "name": "Stepney",
+    "lat": 51.518,
+    "lon": -0.045,
+    "old_street_min": 36,
+    "kcl": {
+     "Waterloo campus": 43,
+     "Strand campus": 34,
+     "Guy's campus": 38,
+     "Denmark Hill campus": 50
+    },
+    "osrm_free_min": 52.2,
+    "drive_km": 23.9,
+    "rent_1bed_median": 2100,
+    "rent_area_label": "Whitechapel & Stepney",
+    "borough": "Tower Hamlets",
+    "ons_borough_1bed_mean": 1992,
+    "kcl_best_min": 34,
+    "kcl_best_campus": "Strand campus",
+    "kcl_avg_min": 41.2
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -0.02,
+     51.527
+    ]
+   },
+   "properties": {
+    "name": "Bow",
+    "lat": 51.527,
+    "lon": -0.02,
+    "old_street_min": 32,
+    "kcl": {
+     "Waterloo campus": 42,
+     "Strand campus": 34,
+     "Guy's campus": 38,
+     "Denmark Hill campus": 50
+    },
+    "osrm_free_min": 59.6,
+    "drive_km": 26.9,
+    "rent_1bed_median": 2050,
+    "rent_area_label": "Bow & Poplar",
+    "borough": "Tower Hamlets",
+    "ons_borough_1bed_mean": 1992,
+    "kcl_best_min": 34,
+    "kcl_best_campus": "Strand campus",
+    "kcl_avg_min": 41.0
+   }
+  }
+ ]
+}

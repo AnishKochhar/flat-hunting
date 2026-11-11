@@ -1,0 +1,90 @@
+{
+ "thresholds": {
+  "old_street_max_min": {
+   "default": 30,
+   "min": 15,
+   "max": 60,
+   "step": 1
+  },
+  "kcl_max_min": {
+   "default": 40,
+   "min": 10,
+   "max": 60,
+   "step": 1
+  },
+  "kcl_mode": {
+   "default": "best",
+   "options": [
+    "best",
+    "avg"
+   ]
+  },
+  "kingston_max_min": {
+   "default": 60,
+   "min": 30,
+   "max": 90,
+   "step": 1
+  },
+  "traffic_factor": {
+   "default": 1.4,
+   "min": 1.2,
+   "max": 1.6,
+   "step": 0.05
+  },
+  "rent_max_gbp": {
+   "default": 1700,
+   "min": 1300,
+   "max": 2200,
+   "step": 25,
+   "marks": [
+    {
+     "value": 1800,
+     "label": "at a push"
+    }
+   ]
+  }
+ },
+ "weights": {
+  "old_street": 1,
+  "kcl": 1,
+  "kingston": 1,
+  "rent": 1
+ },
+ "colours": {
+  "all": "#2e7d32",
+  "most": "#f9a825",
+  "few": "#c62828"
+ },
+ "anchors": [
+  {
+   "name": "Old Street station",
+   "lat": 51.5256,
+   "lng": -0.0875
+  },
+  {
+   "name": "KCL Waterloo campus",
+   "lat": 51.5052,
+   "lng": -0.1132
+  },
+  {
+   "name": "KCL Strand campus",
+   "lat": 51.5115,
+   "lng": -0.116
+  },
+  {
+   "name": "KCL Guy's campus",
+   "lat": 51.5034,
+   "lng": -0.087
+  },
+  {
+   "name": "KCL Denmark Hill campus",
+   "lat": 51.4685,
+   "lng": -0.0937
+  },
+  {
+   "name": "Kingston upon Thames (KT1, drive target)",
+   "lat": 51.41,
+   "lng": -0.3006
+  }
+ ]
+}
